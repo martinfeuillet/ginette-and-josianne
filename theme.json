@@ -1,0 +1,51 @@
+{
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Helvetica Neue",
+					"slug": "helvetica-neue",
+					"fontFace": [
+						{
+							"fontFamily": "Helvetica Neue",
+							"fontStretch": "",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"https://wordpress-622051-3851898.cloudwaysapps.com/wp-content/uploads/2023/09/HelveticaNeueMedium.ttf"
+							]
+						},
+						{
+							"fontFamily": "Helvetica Neue",
+							"fontStretch": "",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"https://wordpress-622051-3851898.cloudwaysapps.com/wp-content/uploads/2023/09/HelveticaNeueLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "Helvetica Neue",
+							"fontStretch": "",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"https://wordpress-622051-3851898.cloudwaysapps.com/wp-content/uploads/2023/09/HelveticaNeueBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "Helvetica Neue",
+							"fontStretch": "",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"https://wordpress-622051-3851898.cloudwaysapps.com/wp-content/uploads/2023/09/helveticaneue.ttf"
+							]
+						}
+					],
+					"isBcf": true
+				}
+			]
+		}
+	}
+}

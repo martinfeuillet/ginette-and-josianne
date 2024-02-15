@@ -1,0 +1,155 @@
+.wp-block-uagb-container.uagb-block-5cc78605{
+    display: flex;
+    gap: 4px !important;
+}
+
+.specialiste-unique-card-block{
+    padding: 20px !important;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.specialiste-unique-card-block h2{
+    font-size: 24px !important;
+    margin-bottom: 24px;
+}
+
+.block-info-titre{
+    margin-bottom: 8px !important;
+}
+
+.wp-block-uagb-container.uagb-block-567f0f29 > .uagb-container-inner-blocks-wrap{
+    padding-bottom: 48px !important;
+}
+
+.specialiste-badge-parcours-wrapper > .jet-listing-dynamic-repeater__items{
+    display: flex;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+}
+
+.wp-block-uagb-container.uagb-block-a687aca2{
+    min-height: 400px;
+    position: sticky;
+    top: calc(var(--header-height-sticky-w-above) + 32px);
+}
+
+.admin-bar .wp-block-uagb-container.uagb-block-a687aca2{
+    top: calc(var(--header-height-sticky-w-above) + 32px + var(--admin-bar));
+}
+
+.specialiste-unique-card-block .listing-trouver-specialiste-main-image img{
+    min-width: 100px !important;
+    height: 100px !important;
+    object-fit: cover;
+}
+
+.wp-block-uagb-image{
+    width: 100%;
+}
+
+.specialiste-unique-mainBlock-badge-wrapper{
+    position: absolute !important;
+    right: 0;
+    font-size: 12px;
+    padding: 4px 8px;
+    background-color: #CF6D3F;
+    color: #fff;
+    border-radius: 2px;
+    width: fit-content !important;
+    margin-left: auto;
+}
+
+.wp-block-uagb-container.uagb-block-5cc78605{
+    flex-wrap: wrap !important;
+}
+
+.uagb-block-a49bab1f{
+    padding: 0 !important;
+}
+
+.single-specialistes .listing-blog-article-cat{
+    display: none;
+}
+
+.specialiste-book-button a{
+    border-radius: 4px !important;
+    font-size: 18px !important;
+}
+
+.specialiste-book-button{
+    text-align: center;
+}
+
+.mobile-specialiste-main-block{
+    display: none;
+}
+
+@media only screen and (max-width: 1080px) and (min-width: 0px){
+    .wp-block-columns.specialiste-content-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{
+        flex-basis: unset !important;
+    }
+
+    .mobile-specialiste-main-block{
+        display: flex;
+    }
+
+    .laptop-specialiste-photo-nom{
+        display: none;
+    }
+
+    .specialiste-content-columns{
+        flex-direction: column-reverse !important;
+    }
+}
+
+@media only screen and (max-width: 781px) and (min-width: 0px){
+    /* .uagb-block-ba87b128 > .uagb-container-inner-blocks-wrap > .wp-block-columns{
+        flex-direction: unset !important;
+    }
+
+    .wp-block-columns.specialiste-content-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{
+        flex-basis: unset !important;
+    } */
+}
+
+@media only screen and (max-width: 767px) and (min-width: 0px){
+    
+}
+
+@media only screen and (max-width: 600px) and (min-width: 0px){
+    /* .listing-blog-article-grid .jet-listing-grid__items .jet-listing-grid__item, .listing-blog-article-grid .jet-listing-grid__items .jet-listing-grid__item:nth-child(2), .listing-blog-article-grid .jet-listing-grid__items .jet-listing-grid__item:nth-child(3) {
+        max-width: 100% !important;
+    }
+
+    .listing-blog-article-grid .jet-listing-grid__items .jet-listing-grid__item:nth-child(2) .is-image-wrapper img, 
+    .listing-blog-article-grid .jet-listing-grid__items .jet-listing-grid__item:nth-child(3) .is-image-wrapper img,
+    .listing-blog-article-grid .jet-listing-grid__items .jet-listing-grid__item .is-image-wrapper img{
+        height: 60vw;
+    } */
+
+    .wp-block-uagb-container.uagb-block-cfd9f4cb > .wp-block-group{
+        flex-direction: column !important;
+    }
+
+    
+
+    /* .wp-block-uagb-container.uagb-block-a60483a1, .wp-block-uagb-container.uagb-block-a60483a1 .wp-block-embed__wrapper, .wp-block-uagb-container.uagb-block-a60483a1 .wp-block-embed__wrapper iframe{
+        height: revert-layer;
+    } */
+
+    .blog-instagram figure {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .blog-instagram {
+        width: 100% !important;
+    }
+
+    .specialiste-unique-mainBlock-badge-wrapper{
+        position: relative !important;
+        margin-top: -32px !important;
+        right: -20px;
+    }
+}

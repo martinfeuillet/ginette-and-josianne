@@ -1,0 +1,206 @@
+section.gj-invoices-tab {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    border-left: 1px solid #B4B4B4;
+}
+
+section.gj-invoices-tab hr.gj-invoices-tab-vertical-line {
+    display: var(--my-account-vertical-line-display);
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #B4B4B4;
+    border: none;
+    margin: 0;
+    top: 0;
+}
+
+section.gj-invoices-tab hr.right {
+    right: var(--my-account-padding-right);
+}
+
+section.gj-invoices-tab hr.left {
+    left: var(--my-account-padding-left);
+}
+
+section.gj-invoices-tab hr.limit-left {
+    left: 0;
+}
+
+div.gj-invoices-tab-content-main {
+    padding: 40px 0;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+div.gj-invoices-tab-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--my-account-padding-right) 0 var(--my-account-padding-left);
+    border-top: 1px solid #B4B4B4;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+div.gj-invoices-tab-content h3 {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+div.gj-invoices-tab-content-invoices {
+    padding: 20px ;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+div.gj-invoices-tab-content-invoice {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+div.gj-invoices-tab-content-invoice-data {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+div.gj-invoices-tab-content-invoice-data div  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+div.gj-invoices-tab-content-invoice-data div.gj-invoices-tab-content-invoice-details {
+    flex-direction: row;
+    width: clamp(460px, 60%, 700px);
+    gap: 0;
+}
+
+div.gj-invoices-tab-content-invoice-data div.gj-invoices-tab-content-invoice-download {
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 150px;
+}
+
+div.gj-invoices-tab-content-invoice-data div.gj-invoices-tab-content-invoice-download a {
+    color: #000;
+    font-family: 'Helvetica Neue';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+div.gj-invoices-tab-content-invoice-data div.gj-invoices-tab-content-invoice-details div.gj-invoices-tab-content-invoice-large-container {
+    width: 40%;
+}
+
+div.gj-invoices-tab-content-invoice-data div.gj-invoices-tab-content-invoice-details div.gj-invoices-tab-content-invoice-small-container {
+    width: 25%;
+}
+
+div.gj-invoices-tab-content-invoice-data p.gj-invoices-tab-content-invoice-header {
+    color: #B4B4B4;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.5px;
+}
+
+div.gj-invoices-tab-content-invoice-data p,
+div.gj-invoices-tab-content-invoice-data a {
+    color: #333;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+div.gj-invoices-tab-content-invoice-download a.gj-download-invoice-button,
+div.gj-invoices-tab-content-invoice-data a {
+    cursor: pointer;
+}
+
+div.gj-invoices-tab-content-invoice-download a.gj-download-invoice-button:hover,
+div.gj-invoices-tab-content-invoice-data a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1200px) {
+    div.gj-invoices-tab-content-main {
+        padding: 0 0 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    div.gj-invoices-tab-content-invoices {
+        padding: 0;
+    }
+
+    div.gj-invoices-tab-content-invoice {
+        gap: 0;
+    }
+
+    div.gj-invoices-tab-content-invoice-data {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+        border-top: 1px solid #B4B4B4;
+    }
+
+    div.gj-invoices-tab-content-invoice-data div.gj-invoices-tab-content-invoice-details {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    div.gj-invoices-tab-content-invoice-data div.gj-invoices-tab-content-invoice-download {
+        width: 100%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 548px) {
+    div.gj-invoices-tab-content {
+        padding-inline: 20px;
+    }
+    div.gj-invoices-tab-content-invoice-data {
+        padding-inline: 0;
+    }
+
+    div.gj-invoices-tab-content-main,
+    div.gj-invoices-tab-content {
+        border-bottom: none;
+    }
+
+    div.gj-invoices-tab-content h3 {
+        margin-inline: 0;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    
+}

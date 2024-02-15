@@ -1,0 +1,386 @@
+.form-hidden {
+    display: none !important;
+}
+
+section.gj-account-details-tab {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    border-left: 1px solid #B4B4B4;
+    padding: 40px 0;
+}
+
+section.gj-account-details-tab hr.gj-account-details-tab-vertical-line {
+    display: var(--my-account-vertical-line-display);
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #B4B4B4;
+    border: none;
+    margin: 0;
+    top: 0;
+}
+
+section.gj-account-details-tab hr.right {
+    right: var(--my-account-padding-right);
+}
+
+section.gj-account-details-tab hr.left {
+    left: var(--my-account-padding-left);
+}
+
+div.gj-account-details-tab-content-section {
+    border-top: 1px solid #B4B4B4;
+    border-bottom: 1px solid #B4B4B4;
+    padding: 20px calc(var(--my-account-padding-right) + 20px) 20px calc(var(--my-account-padding-left) + 20px);    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+div.gj-account-details-tab-content-section * {
+    color: #000;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    line-height: normal;
+}
+
+div.gj-payment-methods {
+    border-top: none;
+}
+
+div.gj-address {
+    border: none;
+}
+
+div.gj-account-details-tab-content-section-header div {
+    display: flex;
+    width: 60%;
+    align-items: flex-start;
+    gap: 8px;
+    flex-direction: column;
+}
+
+div.gj-account-details-tab-content-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button.gj-account-details-tab-content-edit-button {
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    background: #ECAA8B;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+button.gj-account-details-tab-content-edit-button:hover {
+    background: #CF6D3F;
+    cursor: pointer;
+}
+
+div.gj-account-details-tab-content-section-header div h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+div.gj-account-details-tab-content-section-header p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+div.gj-account-details-tab-content-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 60%;
+}
+
+div.gj-account-details-tab-content-section form > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+div.gj-account-details-tab-content-section form.gj-account-about-edit-form > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+div.gj-account-details-tab-content-section form div.gj-address-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+div.gj-account-details-tab-content-section form p,
+div.gj-account-details-tab-content-section form.gj-payment-methods-edit-form span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+div.gj-account-details-tab-content-section form label,
+div.gj-account-details-tab-content-section form.gj-payment-methods-edit-form h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+div.gj-account-details-tab-content-section form h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+div.gj-account-details-tab-content-section form.gj-address-edit-form > div {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 5vw;
+}
+
+div.gj-account-details-tab-content-section.triggered-form {
+    border-top: 1px solid #B4B4B4;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+div.gj-account-details-tab-content-section.triggered-form form div {
+    gap: 5px;
+    width: 100%;
+}
+
+div.gj-account-details-tab-content-section form div.gj-address-container {
+    width: 45%;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.gj-account-details-tab-content-section.triggered-form form div.gj-address-container {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+div.gj-account-details-tab-content-section.triggered-form form div.gj-address-container div {
+    gap: 0px !important;
+}
+
+div.gj-account-details-tab-content-section.triggered-form form div.gj-address-container div label {
+    margin-bottom: 5px;
+}
+
+div.gj-account-details-tab-content-section.triggered-form form div input {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 4px;
+    border: 0.5px solid #B4B4B4;
+    background: #FFF;
+}
+
+div.gj-account-details-tab-content-section.triggered-form form div div.birth-date-input-container, 
+div.gj-account-details-tab-content-section.triggered-form form div div.card-expiry-input-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+div.gj-account-details-tab-content-section.triggered-form form div div.birth-date-input-container div,
+div.gj-account-details-tab-content-section.triggered-form form div div.card-expiry-input-container div {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+div.gj-account-details-tab-content-section.triggered-form form div div.birth-date-input-container div label,
+div.gj-account-details-tab-content-section.triggered-form form div div.card-expiry-input-container div label {
+    font-size: 8px;
+    font-weight: 300;
+}
+
+div.gj-account-details-tab-content-section.triggered-form form div div.birth-date-input-container div input,
+div.gj-account-details-tab-content-section.triggered-form form div div.card-expiry-input-container div input {
+    width: 50px;
+    text-align: center;
+}
+
+div.gj-account-details-tab-content-section.triggered-form form div div.birth-date-input-container div input::-webkit-inner-spin-button,
+div.gj-account-details-tab-content-section.triggered-form form div div.card-expiry-input-container div input::-webkit-inner-spin-button,
+div.gj-account-details-tab-content-section.triggered-form form div div.birth-date-input-container div input::-webkit-outer-spin-button,
+div.gj-account-details-tab-content-section.triggered-form form div div.card-expiry-input-container div input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield;
+}
+
+div.gj-account-details-tab-content-section.triggered-form form div div.birth-date-input-container div.birth-date-year,
+div.gj-account-details-tab-content-section.triggered-form form div div.card-expiry-input-container div.card_expiry_year,
+div.gj-account-details-tab-content-section.triggered-form form div div.birth-date-input-container div.birth-date-year input,
+div.gj-account-details-tab-content-section.triggered-form form div div.card-expiry-input-container div.card_expiry_year input {
+    width: 60px;
+}
+
+div.gj-account-details-tab-content-section form button.gj-account-details-tab-content-save-button,
+div.gj-account-details-tab-content-section form button.gj-account-details-tab-content-cancel-button {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    border: 2px solid #CF6D3F;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+div.gj-account-details-tab-content-section form button.gj-account-details-tab-content-save-button {
+    color: #FFF;
+    background: #CF6D3F;
+}
+
+div.gj-account-details-tab-content-section form button.gj-account-details-tab-content-cancel-button {
+    color: #CF6D3F;
+    background: #FFF;
+}
+
+div.gj-account-details-tab-content-section form button.gj-account-details-tab-content-save-button:hover {
+    color: #CF6D3F;
+    background: #fff;
+}
+
+div.gj-account-details-tab-content-section form button.gj-account-details-tab-content-cancel-button:hover {
+    color: #fff;
+    background: #CF6D3F;
+}
+
+div.gj-account-details-tab-content-section form.gj-privacy-edit-form div p {
+    font-size: 9px;
+    font-weight: 400;
+}
+
+div.password-input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    border: 0.5px solid #B4B4B4;
+    background: #FFF;
+    gap: 20px;
+}
+
+div.password-input-container input {
+    border: none !important;
+}
+
+
+div.password-input-container button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+button.show-password-button img {
+    height: 20px;
+    width: 40px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 924px) {
+    div.gj-account-details-tab-content-section form {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 548px) {
+    div.gj-account-details-tab-content-section {
+        padding-inline: 0;
+    }
+
+    div.gj-account-details-tab-content-section.gj-privacy {
+        border-bottom: none;
+    }
+
+    div.gj-account-details-tab-content {
+        padding-inline: 20px;
+    }
+
+    div.gj-account-details-tab-content-main {
+        border-top: 1px solid #B4B4B4;
+    }
+
+    div.gj-account-details-tab-content-section.gj-account-details {
+        border-top: none;
+    }
+
+    div.gj-account-details-tab-content-section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    div.gj-account-details-tab-content-section-header div {
+        width: 100%;
+    }
+
+    section.gj-account-details-tab {
+        padding-top: 0;
+    }
+
+    div.gj-account-details-tab-content-section form.gj-address-edit-form > div {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    
+}

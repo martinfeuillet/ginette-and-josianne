@@ -1,0 +1,21 @@
+.wp-block-uagb-container.uagb-block-79404618{
+    max-width: 830px !important;
+}
+
+@media only screen and (max-width: 1240px) and (min-width: 0px){
+    .listing-product-epicerie .jet-listing-grid__items{
+        --columns: 3;
+    }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 0px){
+    .listing-product-epicerie .jet-listing-grid__items{
+        --columns: 2;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 0px){
+    .listing-product-epicerie .jet-listing-grid__items{
+        --columns: 1;
+    }
+}

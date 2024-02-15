@@ -1,0 +1,297 @@
+section.gj-orders-tab,
+section.gj-view-order-content {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    border-left: 1px solid #B4B4B4;
+}
+
+section.gj-orders-tab hr.gj-orders-tab-vertical-line,
+section.gj-view-order-content hr.gj-view-order-vertical-line{
+    display: var(--my-account-vertical-line-display);
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #B4B4B4;
+    border: none;
+    margin: 0;
+    top: 0;
+}
+
+section.gj-orders-tab hr.right,
+section.gj-view-order-content hr.right {
+    right: var(--my-account-padding-right);
+}
+
+section.gj-orders-tab hr.left,
+section.gj-view-order-content hr.left {
+    left: var(--my-account-padding-left);
+}
+
+section.gj-orders-tab hr.limit-left {
+    left: 0;
+}
+
+div.gj-orders-tab-content-main {
+    padding: 40px 0;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+div.gj-orders-tab-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-inline: var(--my-account-padding-left) var(--my-account-padding-right);
+    border-top: 1px solid #B4B4B4;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+div.gj-orders-tab-content h3,
+section.gj-view-order-content h2.woocommerce-order-details__title {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+div.gj-orders-tab-content-orders {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+div.gj-orders-tab-content-order {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+div.gj-orders-tab-content-order-data {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.gj-orders-tab-content-order-data > div {
+    width: 50%;
+}
+
+div.gj-orders-tab-content-order-data div  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+div.gj-orders-tab-content-order-data div.gj-orders-tab-content-order-details {
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+
+div.gj-orders-tab-content-order-data div.gj-orders-tab-content-order-details div.gj-orders-tab-content-order-price {
+    width: 75px;
+}
+
+div.gj-orders-tab-content-order-data div.gj-orders-tab-content-order-details div.gj-orders-tab-content-order-status {
+    width: 250px;
+}
+
+div.gj-orders-tab-content-order-data p.gj-orders-tab-content-order-header {
+    color: #B4B4B4;
+    font-family: 'Helvetica Neue';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.5px;
+}
+
+div.gj-orders-tab-content-order-data p,
+div.gj-orders-tab-content-order-data a {
+    color: #333;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+div.gj-orders-tab-content-order-data a {
+    cursor: pointer;
+}
+
+div.gj-orders-tab-content-order-data a:hover {
+    text-decoration: underline;
+}
+
+/* VIEW ORDER STYLE */
+section.gj-view-order-content {
+    padding: 40px 0;
+}
+section.gj-view-order-content section.woocommerce-order-details {
+    margin: 0;
+    border-top: 1px solid #B4B4B4;
+    border-bottom: 1px solid #B4B4B4;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 20px calc(var(--my-account-padding-right) + 20px) 20px calc(var(--my-account-padding-left) + 20px);
+    gap: 20px;
+}
+
+section.gj-view-order-content-table table td.product-name {
+    color: #CF6D3F;
+}
+
+section.gj-view-order-content-table table td.product-name strong.product-quantity {
+    color: #000000;
+}
+
+section.gj-view-order-addresses {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 0;
+}
+
+div.gj-view-order-billing-addresse,
+div.gj-view-order-shipping-addresse {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div.gj-view-order-billing-addresse h2 ,
+div.gj-view-order-shipping-addresse h2 {
+    margin: 0;
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid #B4B4B4;
+    width: 100%;
+    color: #000;
+    font-family: 'Helvetica Neue';
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: normal !important;
+}
+
+div.gj-view-order-billing-addresse address,
+div.gj-view-order-shipping-addresse address {
+    border: none !important;
+    padding: 20px !important;
+    width: 100%;
+}
+
+div.gj-view-order-shipping-addresse {
+    border-left: 1px solid #B4B4B4;
+}
+
+section.gj-view-order-content h2.woocommerce-order-details__title {
+    text-align: left;
+    margin: 0;
+}
+
+section.woocommerce-customer-details {
+    border-bottom: 1px solid #B4B4B4;
+    padding: 0 var(--my-account-padding-right) 0 var(--my-account-padding-left);
+}
+
+/* section.gj-view-order-content h2.woocommerce-order-details__title,
+section.gj-view-order-content section.gj-view-order-content-table {
+    padding: 0 calc(var(--my-account-padding-right) + 20px) 0 calc(var(--my-account-padding-left) + 20px);
+} */
+
+@media only screen and (max-width: 1200px) {
+    section.gj-view-order-content {
+        padding-top: 0 !important;
+    }
+
+    div.gj-orders-tab-content-main {
+        padding: 0 0 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    div.gj-orders-tab-content-orders {
+        padding: 0;
+        gap: 0;
+    }
+
+    div.gj-orders-tab-content-order {
+        gap: 0;
+    }
+
+    div.gj-orders-tab-content-order-data {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+        border-top: 1px solid #B4B4B4;
+    }
+
+    div.gj-orders-tab-content-order-data div.gj-orders-tab-content-order-details {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 548px) {
+    div.gj-orders-tab-content-order-data {
+        padding-inline: 0;
+    }
+
+    div.gj-orders-tab-content h3 {
+        margin-inline: 0;
+    }
+
+    div.gj-orders-tab-content-main,
+    div.gj-orders-tab-content {
+        border-bottom: none;
+    }
+
+    section.gj-view-order-content section.woocommerce-order-details  {
+        padding-inline: 0;
+        margin-inline: 20px;
+        border: none;
+    }
+
+    section.gj-view-order-addresses {
+        flex-direction: column;
+    }
+
+    a.gj-my-account-breadcrumb-trail-link {
+        border-bottom: 1px solid #B4B4B4;
+    }
+
+    section.woocommerce-customer-details {
+        border: none;
+    }
+
+    div.gj-view-order-billing-addresse {
+        margin-bottom: 20px;
+    }
+
+    div.gj-view-order-billing-addresse,
+    div.gj-view-order-shipping-addresse {
+        border: 1px solid #B4B4B4;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    
+}

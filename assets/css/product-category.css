@@ -1,0 +1,21 @@
+.uagb-block-79404618{
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.term-main-image{
+    width: 100%;
+    height: 100% !important;
+    max-height: 100%;
+    object-fit: cover;
+    max-height: 250px;
+}
+
+@media only screen and (min-width: 1500px){
+    .uagb-block-12c87d49{
+        max-width: 1240px !important;
+        margin: 0 auto !important;
+    }
+}

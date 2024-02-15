@@ -1,0 +1,194 @@
+.wp-block-uagb-container.uagb-block-7ca90fbc{
+    max-width: 460px !important;
+}
+
+.wp-block-uagb-container.uagb-block-680e626c{
+    position: relative;
+}
+
+.wp-block-uagb-container.uagb-block-7ca90fbc{
+    top: -32px;
+}
+
+.wp-block-uagb-container.uagb-block-e4dc5b91{
+    position: unset;
+}
+
+body .wp-block-uagb-container.uagb-block-47e60a17{
+    position: absolute;
+    top: 0;
+    margin-top: 32px !important;
+}
+
+.page-id-29362 .global-filter-wrapper .jet-search-filter__input::placeholder{
+	color: #CF6D3F;
+    font-weight: 400;
+}
+
+.page-id-29362 .global-filter-wrapper .jet-search-filter__input{
+    color: #CF6D3F;
+}
+
+.global-filter-wrapper .jet-filter-label{
+    color: #CF6D3F;
+    font-weight: 500;
+}
+
+.wp-block-uagb-container.uagb-block-d3faac6f{
+    max-width: 500px !important;
+}
+
+.page-id-29362 .global-section-service{
+    margin-top: 0 !important;
+}
+
+.listing-trouver-specialiste .jet-listing-grid__item{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(236, 170, 139, 0.10);
+}
+
+.listing-trouver-specialiste .listing-trouver-specialiste-inner{
+    padding: 20px;
+}
+
+.listing-trouver-specialiste-main-image {
+    margin-top: 10px !important;
+    margin-bottom: 14px;
+}
+
+.listing-trouver-specialiste__info{
+    flex-direction: column
+}
+
+.uagb-block-16dccbc8{
+    margin-bottom: 6px;
+}
+
+.uagb-block-314d1a51{
+    margin-bottom: 10px;
+}
+
+.listing-trouver-specialiste-avis-google{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.listing-trouver-specialiste-avis-google .logo-google-wrapper svg{
+    position: relative;
+    top: 2px;
+}
+
+.entry-content{
+    overflow: hidden;
+}
+
+.wp-block-uagb-container.uagb-block-23aba288 *:not(img){
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.uagb-block-ddee627c img{
+    height: calc(100vh - var(--header-height-w-above)) !important;
+    width: 100% !important;
+}
+
+.wp-block-uagb-container.uagb-block-176b09b1 .wp-block-column h3{
+    margin-bottom: 8px !important;
+}
+
+.wp-block-uagb-container.uagb-block-bde852ef{
+    padding: 24px !important;
+}
+
+.wp-block-uagb-container.uagb-block-bde852ef > .wp-block-uagb-container{
+    margin: 0 !important;
+}
+
+
+.listing-trouver-specialiste .jet-listing-grid__items{
+    gap: 20px;
+}
+
+.listing-trouver-specialiste .jet-listing-grid__items .jet-listing-grid__item{
+    max-width: calc(100% / var(--columns) - 20px + 20px / var(--columns)) !important;
+}
+
+.listing-trouver-specialiste-inner{
+    height: 100%;
+}
+
+.specialiste-badge-rdv-wrapper{
+    margin-top: auto;
+    flex-wrap: nowrap;
+}
+
+.specialiste-badge-rdv{
+    width: 50%;
+}
+
+.specialiste-badge-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.specialiste-badge{
+    padding: 5px 15px;
+    background-color: #CF6D3F;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* .specialiste-badge-items .specialiste-badge{
+    display: none !important;
+}
+
+.specialiste-badge-items .specialiste-badge:first-child,
+.specialiste-badge-items .specialiste-badge:nth-child(2){
+    display: block !important;
+} */
+
+
+@media only screen and (max-width: 1296px) and (min-width: 0px){
+    .wp-block-uagb-container.uagb-block-680e626c{
+        padding: 24px;
+    }
+}
+
+@media only screen and (max-width: 1080px) and (min-width: 0px){
+    .wp-block-uagb-container.uagb-block-47e60a17{
+        position: relative;
+        margin-top: 0px !important;
+        margin-bottom: 32px !important;
+    }
+
+    .wp-block-uagb-container.uagb-block-680e626c{
+        justify-content: start;
+    }
+
+    .wp-block-uagb-container.uagb-block-7ca90fbc{
+        top: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 0px){
+    
+}
+
+@media only screen and (max-width: 767px) and (min-width: 0px){
+    .wp-block-uagb-container.uagb-block-d352312f{
+        padding: 24px;
+    }
+
+    .wp-block-uagb-container.uagb-block-d3faac6f{
+        max-width: 100% !important;
+    }
+
+    .specialiste-badge-rdv{
+        width: fit-content;
+    }
+}

@@ -1,0 +1,279 @@
+/*
+* RECETTES CSS
+*/
+
+/* ARCHIVES LISTING RECETTES */
+
+/* Reset recette loop flex direction FSE bug */
+.recettes__section-listing .jet-listing-grid__item div:not(.recettes__section-listing .listing-recette__tag-wrapper, .listing-recette__tag-wishlist){
+    flex-direction: column;
+}
+
+.jet-listing-dynamic-image .jet-listing-dynamic-image__link{
+    width: 100%;
+}
+
+.recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:first-child,
+.recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:nth-child(2),
+.recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:nth-child(3),
+.recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:nth-child(4){
+    margin-bottom: 448px;
+}
+
+.wp-block-uagb-container.uagb-block-3e531b26{
+    position: absolute;
+    top: 410px;
+}
+
+.page-id-29017 .global-section-service{
+    margin-top: 0 !important;
+}
+
+.wp-block-uagb-container.uagb-block-3e531b26{
+    z-index: 99;
+}
+
+/* .entry-content > .wp-block-group > .wp-block-uagb-container{
+    overflow-x: hidden;
+} */
+
+.recette-wishlist{
+    width: fit-content;
+}
+
+.recette-wishlist > .safe-svg-cover{
+    position: absolute !important;
+    width: 20px !important;
+    height: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    right: 0;
+    top: -4px;
+    z-index: 1;
+}
+
+.recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item{
+    border-bottom: 1px solid rgba(139, 139, 139, 0.6);
+}
+
+.entry-content .recettes__section-listing{
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 1300px){
+    .recette_thumbnail img {
+        height: 300px;
+    }
+
+    .wp-block-uagb-container.uagb-block-3e531b26{
+        top: 484px;
+    }
+}
+
+@media only screen and (max-width: 1240px) and (min-width: 0px){
+    .listing-recette-main-wrapper > .uagb-container-inner-blocks-wrap > div:last-child {
+        padding-left: 32px;
+    }
+}
+
+@media only screen and (max-width: 1530px) and (min-width: 0px){
+    .listing-recette__content{
+        padding: 24px 24px !important;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 0px) {
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:not(.recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:nth-child(4n)){
+        border-right: unset;
+    }
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:not(.recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:nth-child(3n)) {
+        border-right: 1px solid rgba(139, 139, 139, 0.6);
+    }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px){
+    .recettes__section-listing .jet-listing-grid__items.grid-col-tablet-2{
+        --columns: 3;
+    }
+
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:nth-child(4){
+        margin-bottom: 0;
+        border-right: 1px solid rgba(139, 139, 139, 0.6);
+    }
+
+    .listing-recette__tag-wrapper{
+        overflow: hidden;
+    }
+    
+    .listing-recette__tag{
+        min-width: fit-content;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 900px){
+    
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 0px){
+    .wp-block-uagb-container.uagb-block-3e531b26{
+        top: 435px;
+    }
+
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:not(.recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:nth-child(3n)){
+        border-right: unset;
+    }
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:not(.recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:nth-child(2n)) {
+        border-right: 1px solid rgba(139, 139, 139, 0.6);
+    }
+
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:nth-child(3),
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:nth-child(4){
+        margin-bottom: 0;
+    }
+
+    .recette_thumbnail img{
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 976px) and (min-width: 0px){
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:first-child, .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:nth-child(2){
+        margin-bottom: 515px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 600px){
+    .recette_thumbnail img {
+        height: 400px;
+    }
+
+    .wp-block-uagb-container.uagb-block-3e531b26 {
+        top: 585px;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 450px){
+    .recette_thumbnail img {
+        height: 300px;
+    }
+
+    .wp-block-uagb-container.uagb-block-3e531b26 {
+        top: 485px;
+    }
+}
+
+@media only screen and (max-width: 450px) and (min-width: 0px){
+    .recette_thumbnail img {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 0px){
+    h2{
+        font-size: 26px;
+    }
+
+    .listing-recette-main-wrapper > .uagb-container-inner-blocks-wrap{
+        flex-wrap: wrap;
+    }
+
+    .listing-recette-main-wrapper > .uagb-container-inner-blocks-wrap > div{
+        width: 100% !important;
+    }
+
+    .wp-block-uagb-container.uagb-block-8e82b400{
+        padding-right: 0px !important;
+    }
+
+    .listing-recette-main-wrapper > .uagb-container-inner-blocks-wrap > div:last-child{
+        padding-top: 32px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .listing-recette-main-content{
+        max-width: 100% !important;
+    }
+
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:not(.recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:nth-child(2n)){
+        border-right: unset;
+    }
+    
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:nth-child(2){
+        margin-bottom: 0;
+    }
+
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:first-child {
+        margin-bottom: 500px;
+    }
+
+    .listing-recette-main-image img{
+        height: 55vw;
+    }
+
+    body .wp-block-uagb-container.uagb-block-8e82b400{
+        margin-top: 16px !important;
+    }
+
+    body .wp-block-uagb-container.uagb-block-1e60355d{
+        padding-top: 16px !important;
+    }
+
+    body .wp-block-uagb-container.uagb-block-8e82b400{
+        margin-top: 0 !important;
+    }
+
+    body .wp-block-uagb-container.uagb-block-1e60355d{
+        padding-top: 0 !important;
+    }
+
+    .page-breadcrumb{
+        padding-top: 1em !important;
+        padding-bottom: 1em !important;
+    }
+}
+
+@media only screen and (max-width: 648px) and (min-width: 0px){
+    .abonnement__header__title{
+        max-width: 500px !important;
+    }
+
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:first-child {
+        margin-bottom: 532px;
+    }
+}
+
+@media only screen and (max-width: 515px) and (min-width: 0px){
+    .abonnement__header__title{
+        max-width: 400px !important;
+    }
+
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:first-child {
+        margin-bottom: 480px;
+    }
+
+    .block-abonnement-big-letter{
+        font-size: 40px !important;
+    }
+
+    .block-abonnement-text{
+        font-size: 12px !important;
+    }
+
+    .card-cat__bottom-wrapper{
+        min-height: 175px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 0px){
+    .abonnement__header__title{
+        max-width: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 356px) and (min-width: 0px){
+    .recettes__section-listing .jet-listing-grid__items .jet-listing-grid__item:first-child {
+        margin-bottom: 511px;
+    }
+}

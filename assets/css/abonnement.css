@@ -1,0 +1,156 @@
+.wp-block-uagb-container.uagb-block-47e60a17{
+	position: absolute;
+    top: 0;
+    margin-top: 32px !important;
+}
+
+.wp-block-uagb-container.uagb-block-e4dc5b91{
+    position: unset;
+}
+
+.wp-block-uagb-container.uagb-block-7ca90fbc{
+    max-width: 360px !important;
+}
+
+.wp-block-uagb-container.uagb-block-7ca90fbc{
+    top: -32px;
+}
+
+.uagb-block-ddee627c img{
+    height: auto;
+    max-height: 100vh;
+}
+
+.listing-abonnement-cards{
+    align-items: stretch !important;
+}
+
+.listing-abonnement-cards .listing-abonnement-card{
+    width: calc(100% / 3 - 32px + 32px / 3) !important;
+}
+
+/* Abonnement table */
+.tg{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+.tg td{
+    border-color: #B4B4B4;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    padding: 20px;
+    word-break:normal;
+}
+
+.tg th{
+    border-color: #B4B4B4;
+    border-style:solid;
+    border-width:1px;
+    font-weight:normal;
+    overflow:hidden;
+    padding: 20px;
+    word-break:normal;
+}
+
+.table-cell-hidden{
+    border: none !important;
+}
+
+.table-cell-membre{
+    padding: 0 !important;
+    height: 100%;
+    overflow: visible !important;
+    border: none !important;
+}
+
+.table-cell-membre div{
+    background-color: #CF6D3F;
+    color: #fff;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: -20px;
+    border-radius: 4px 4px 0 0;
+}
+
+.table-cell-non-membre{
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 0 !important;
+}
+
+.table-abonnement{
+    width: 100%;
+}
+
+.table-abonnement > colgroup > col:first-child{
+    width: 50%;
+}
+
+.table-abonnement > colgroup > col:nth-child(2){
+    width: 17%;
+}
+
+.table-abonnement > colgroup > col:nth-child(3){
+    width: 27%;
+}
+
+
+@media only screen and (max-width: 1080px) and (min-width: 0px){
+    .wp-block-uagb-container.uagb-block-7ca90fbc{
+        top: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 0px){
+    .wp-block-uagb-container.uagb-block-47e60a17{
+        position: relative;
+        margin-top: 0px !important;
+        margin-bottom: 32px !important;
+    }
+
+    .wp-block-uagb-container.uagb-block-e4dc5b91{
+        max-width: 100% !important;
+    }
+
+    .wp-block-uagb-container.uagb-block-680e626c{
+        padding: 24px !important;
+    }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 0px){
+    .table-cell-membre div{
+        height: 126px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -24px;
+    }
+}
+
+@media only screen and (max-width: 921px) and (min-width: 0px){
+    .listing-abonnement-cards .listing-abonnement-card{
+        width: calc(100% / 2 - 32px + 32px / 2) !important;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 0px){
+    .listing-abonnement-cards .listing-abonnement-card{
+        width: 100% !important;
+    }
+
+    .table-cell-membre div{
+        font-size: 16px;
+    }
+
+    .table-cell-non-membre{
+        font-size: 13px;
+    }
+
+    .table-abonnement tbody td{
+        font-size: 12px;
+    }
+}

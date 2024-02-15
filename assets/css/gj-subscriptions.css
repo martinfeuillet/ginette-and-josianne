@@ -1,0 +1,319 @@
+section.gj-subscriptions-tab {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    border-left: 1px solid #B4B4B4;
+}
+
+section.gj-subscriptions-tab hr.gj-subscriptions-tab-vertical-line {
+    display: var(--my-account-vertical-line-display);
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #B4B4B4;
+    border: none;
+    margin: 0;
+    top: 0;
+}
+
+section.gj-subscriptions-tab hr.right {
+    right: var(--my-account-padding-right);
+}
+
+section.gj-subscriptions-tab hr.left {
+    left: var(--my-account-padding-left);
+}
+
+section.gj-subscriptions-tab hr.limit-left {
+    left: 0;
+}
+
+div.gj-subscriptions-tab-content-main {
+    padding: 40px 0;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+div.gj-subscriptions-tab-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-top: 1px solid #B4B4B4;
+}
+
+div.gj-subscriptions-tab-content h3 {
+    margin: 20px 20px 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+div.gj-no-subscription-content {
+    gap: 15px !important;
+}
+
+div.gj-subscriptions-tab-content-subscriptions {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px;
+}
+
+div.gj-subscriptions-tab-content-subscription {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+div.gj-subscriptions-tab-content-subscription-data {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.gj-subscriptions-tab-content-subscription-data > div {
+    width: 35%;
+}
+
+div.gj-subscriptions-tab-content-subscription-data div  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+div.gj-subscriptions-tab-content-subscription-data div.gj-subscriptions-tab-content-subscription-details {
+    flex-direction: row;
+    gap: 25px;
+}
+
+div.gj-subscriptions-tab-content-subscription-data p.gj-subscriptions-tab-content-subscription-header {
+    color: #B4B4B4;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.5px;
+}
+
+div.gj-subscriptions-tab-content-subscription-data p,
+div.gj-subscriptions-tab-content-subscription-data a {
+    color: #333;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+div.gj-subscriptions-tab-content-subscriptions a,
+button.gj-subscriptions-no-subscription {
+    padding: 8px 24px;
+    border-radius: 50px;
+    background-color: #CF6D3F;
+    border: 2px solid #CF6D3F;
+    transition: .3s;
+    color: #fff;
+    cursor: pointer;
+}
+
+button.gj-subscriptions-no-subscription:hover {
+    color: #CF6D3F;
+    background-color: #fff;
+}
+
+div.gj-subscriptions-tab-content-section {
+    padding: 20px calc(var(--my-account-padding-right) + 20px) 20px calc(var(--my-account-padding-left) + 20px);
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    flex-direction: column;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+div.gj-subscription-about {
+    gap: 20px;
+}
+
+div.gj-subscription-about div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+div.gj-subscriptions-tab-content-section h3 {
+    margin: 0;
+}
+
+div.gj-subscription-about div p {
+    border-radius: 4px;
+    background: #ECAA8B;
+    padding: 6px 12px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+div.gj-subscription-limit-mobile {
+    display: none !important;
+}
+
+p.gj-subscription-limit-desktop {
+    display: flex;
+}
+
+div.gj-subscription-about > p {
+    width: 100%;
+}
+
+div.gj-unsubscribe-section {
+    gap: 15px;
+}
+
+div.gj-subscriptions-tab-content-unsubscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+div.gj-saving-about-items,
+div.gj-advantage-about-items {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+div.gj-saving-about-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+div.gj-saving-about-item-icon {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CF6D3F;
+    aspect-ratio: 1;
+    width: 60px;
+}
+
+div.gj-saving-about-item-icon img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 26px;
+}
+
+div.gj-saving-about-item-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.div.gj-saving-about-item-details p {
+    font-family: 'Helvetica Neue';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+div.div.gj-saving-about-item-details p,
+div.gj-advantage-about-item p {
+    color: #000;
+}
+
+div.gj-saving-about-item-details p.gj-saving-about-item-total,
+div.gj-advantage-about-item p.gj-advantage-about-item-header {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+div.gj-advantage-about-item {
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.gj-advantage-about-item p {
+    color: #FFF;
+}
+
+div.shop-discount {
+    background: #ECAA8B;
+}
+
+div.content-advantage {
+    background: #CF6D3F;
+}
+
+@media only screen and (max-width: 1200px) {
+    div.gj-subscriptions-tab-content-main {
+        padding: 0 0 40px;
+        border-bottom: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    div.gj-saving-about-items,
+    div.gj-advantage-about-items {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    div.gj-saving-about-item,
+    div.gj-advantage-about-item {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 548px) {
+    div.gj-subscriptions-tab-content {
+        padding-inline: 20px;
+    }
+
+    div.gj-subscriptions-tab-content-section {
+        padding-inline: 0;
+    }
+
+    div.gj-subscription-limit-mobile {
+        display: flex;
+    }
+    
+    p.gj-subscription-limit-desktop {
+        display: none;
+    }
+
+    div.gj-subscriptions-tab-content-section.gj-unsubscribe-section {
+        border-bottom: none;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    
+}

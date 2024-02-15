@@ -1,0 +1,390 @@
+:root {
+    --my-account-padding-left: 40px;
+    --my-account-padding-right: 80px;
+    --my-account-vertical-line-display: block;
+}
+
+div.woocommerce {
+    display: flex;
+    align-items: flex-start;
+}
+
+.entry-content:not(.single-post .wp-block-post-content, .recette-content) {
+    padding-top: 0 !important;
+}
+
+body.woocommerce-account {
+    overflow-x: hidden;
+}
+
+body.woocommerce-account div.woocommerce-MyAccount-content {
+    width: 75% !important;
+}
+
+div.wp-site-blocks {
+    min-height: 90vh;
+}
+
+p.gj-my-account-breadcrumb-trail,
+a.gj-my-account-breadcrumb-trail-link,
+div.gj-dashboard-tab-header-user {
+    display: none;
+}
+
+header.wp-block-template-part,
+footer.wp-block-template-part,
+div#yith-wcmap-avatar,
+div.user-profile {
+    display: none !important;
+}
+
+div#my-account-menu {
+    width: 25%;
+}
+
+ul.myaccount-menu {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-height: 90vh;
+}
+
+ul.myaccount-menu li {
+    width: clamp(200px, 80%, 250px);
+    padding: 15px;
+    color: #B4B4B4;
+    transition: .25s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul.myaccount-menu li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul.myaccount-menu li a.yith-subscriptions {
+    display: none !important;
+}
+
+ul.myaccount-menu li:hover,
+ul.myaccount-menu li.active {
+    background: #CF6D3F;
+    color: #fff;
+}
+
+p.no-order-message {
+    color: #000;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+div.gj-account-custom-header {
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+    width: 100vw;
+}
+
+div.gj-account-custom-mobile-header {
+    display: none;
+}
+
+div.gj-account-custom-header-logo {
+    width: 25%;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #B4B4B4;
+    padding: 20px 40px;
+}
+
+div.gj-account-custom-header-logo a {
+    height: 90px;
+}
+
+div.gj-account-custom-header-logo img {
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+div.gj-account-custom-header-user {
+    min-height: 10vh;
+    width: 75%;
+    padding: 20px 40px;
+    border-bottom: 1px solid #B4B4B4;
+    border-left: 1px solid #B4B4B4;
+}
+
+div.gj-account-custom-header-user-details {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    gap: 40px;
+}
+
+div.gj-account-custom-header-user-details img {
+    height: 90px;
+    aspect-ratio: 1;
+    object-fit: contain;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+div.gj-account-custom-header-user-details p {
+    color: #232323;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+div.gj-account-custom-header-user-details p.gj-account-custom-header-strong {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1200px) {
+    :root {
+        --my-account-padding-right: 40px;
+    }
+
+    div.gj-account-custom-header {
+        display: none;
+    }
+
+    div.gj-account-custom-mobile-header {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px var(--my-account-padding-right);
+        border-bottom: 1px solid #B4B4B4;
+    }
+
+    div.gj-account-custom-mobile-header-menu {
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 25px;
+        height: 20px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    div.gj-account-custom-mobile-header-menu hr {
+        display: flex;
+        width: 100%;
+        border: 1px solid rgba(0,0,0,.8);
+        margin: 0;
+        transition: .2s;
+        -webkit-transition: .2s;
+        -moz-transition: .2s;
+        -ms-transition: .2s;
+        -o-transition: .2s;
+}
+
+    div.gj-account-custom-mobile-header-menu.custom-mobile-header-active-menu hr.top-bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: rotate(45deg);
+        transform-origin: left center;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+}
+    div.gj-account-custom-mobile-header-menu.custom-mobile-header-active-menu hr.mid-bar {
+        display: none;
+    }
+    div.gj-account-custom-mobile-header-menu.custom-mobile-header-active-menu hr.bottom-bar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: rotate(-45deg);
+        transform-origin: left center;
+        -webkit-transform: rotate(-45%);
+        -moz-transform: rotate(-45%);
+        -ms-transform: rotate(-45%);
+        -o-transform: rotate(-45%);
+}
+
+    div.gj-account-custom-mobile-header > img {
+        width: 50px !important;
+    }
+
+    div#my-account-menu {
+        position: absolute;
+        z-index: 999;
+        background: #FFF;
+        width: 390px;
+        height: 100vh;
+        transition: .2s;
+        border-right: 1px solid #B4B4B4;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        -webkit-transition: .2s;
+        -moz-transition: .2s;
+        -ms-transition: .2s;
+        -o-transition: .2s;
+    }
+
+    div.my-account-body-active::after {
+        content: '';
+        position: absolute;
+        opacity: 0;
+        z-index: -1;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .75);
+        transition: .2s !important;
+        -webkit-transition: .2s !important;
+        -moz-transition: .2s !important;
+        -ms-transition: .2s !important;
+        -o-transition: .2s !important;
+}
+
+    div#my-account-menu.my-account-menu-active {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+
+    div.my-account-body-active::after {
+        width: 100vw;
+        opacity: 1;
+        z-index: 998;
+    }
+
+    body.woocommerce-account div.woocommerce-MyAccount-content {
+        width: 100% !important;
+    }
+
+    p.gj-my-account-breadcrumb-trail,
+    a.gj-my-account-breadcrumb-trail-link {
+        padding: 30px calc(var(--my-account-padding-left) + 20px) 30px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: rgba(0, 0, 0, 0.80);
+        text-align: center;
+        font-family: 'Helvetica';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.5px;
+    }
+
+    section.gj-wishlist-tab p.gj-my-account-breadcrumb-trail,
+    section.gj-account-details-tab p.gj-my-account-breadcrumb-trail {
+        padding: 0 calc(var(--my-account-padding-left) + 20px) 40px;
+    }
+
+    div.gj-dashboard-tab-header-user {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    div.gj-dashboard-tab-user-details {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+        padding: 40px 0 0;
+    }
+
+    div.gj-dashboard-tab-user-details div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    div.gj-dashboard-tab-user-details h1 {
+        color: #000;
+        text-align: center;
+        font-family: 'Helvetica';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+
+    div.gj-dashboard-tab-user-details p {
+        color: #232323;
+        text-align: center;
+        font-family: 'Helvetica Neue';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+
+    div.gj-dashboard-tab-user-details p.gj-dashboard-tab-header-strong {
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 548px) {
+    :root {
+        --my-account-padding-right: 20px;
+        --my-account-padding-left: 20px;
+        --my-account-vertical-line-display: none;
+    }
+
+    p.gj-my-account-breadcrumb-trail,
+    a.gj-my-account-breadcrumb-trail-link,
+    section.gj-wishlist-tab p.gj-my-account-breadcrumb-trail, 
+    section.gj-account-details-tab p.gj-my-account-breadcrumb-trail {
+        padding: 30px var(--my-account-padding-left) 30px;
+    }
+
+    div.gj-dashboard-tab-user-details {
+        padding: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    
+}

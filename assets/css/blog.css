@@ -1,0 +1,33 @@
+.listing-blog-article-wrapper {
+    height: 100%;
+}
+
+body .above-header{
+    background-color: var(--wp--preset--color--custom-terracota) !important;
+}
+
+.blog-filter-wrapper .jet-checkboxes-list-wrapper{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog-filter-wrapper{
+    max-width: 800px !important;
+    margin: 0 auto;
+}
+
+.filter-button-all{
+    cursor: pointer;
+}
+
+.jet-search-filter__input::placeholder{
+    color: #CF6D3F !important;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 0px){
+    .listing-blog-article .jet-listing-grid__items > .jet-listing-grid__item .listing-article-head .is-image-wrapper img{
+        height: 66vw;
+    }
+}

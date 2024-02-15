@@ -1,0 +1,144 @@
+.wp-block-uagb-container.uagb-block-a43fc238{
+    flex-direction: column;
+}
+
+.jet-listing-grid__item .wp-block-columns > .wp-block-column:first-child > .wp-block-group{
+    display: flex;
+    gap: 40px;
+}
+
+.listing-tous-les-specialistes .jet-listing-grid__item{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(236, 170, 139, 0.10);
+}
+
+.wp-block-uagb-container.uagb-block-a6eae47f,
+.listing-trouver-specialiste__info{
+    flex-direction: column;
+}
+
+.wp-block-uagb-container.uagb-block-a43fc238{
+    min-width: fit-content;
+}
+
+.wp-block-uagb-container.uagb-block-26977f54,
+.wp-block-uagb-container.uagb-block-a6eae47f{
+    width: 100%;
+}
+
+.wp-block-uagb-container.uagb-block-a6eae47f{
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0px 2px 10px 0px rgba(236, 170, 139, 0.15);
+}
+
+.wp-block-uagb-container.uagb-block-a6eae47f{
+    gap: 8px;
+}
+
+.listing-trouver-specialiste-main-image{
+    margin-bottom: 20px;
+}
+
+.specialiste-badge-rdv-wrapper{
+    flex-direction: column;
+}
+
+.listing-specialiste-columns-right{
+    gap: 32px;
+}
+
+.listing-specialiste-columns-right > .wp-block-column:first-child{
+    flex-basis: unset !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.listing-specialiste-columns-right > .wp-block-column:last-child{
+    min-width: fit-content;
+    flex-basis: unset !important;
+}
+
+.page-id-29463 .global-section-service{
+    margin-top: 0 !important;
+}
+
+.page-id-29463 .global-filter-wrapper .jet-search-filter__input::placeholder{
+	color: #CF6D3F;
+    font-weight: 400;
+}
+
+.page-id-29463 .global-filter-wrapper .jet-search-filter__input{
+    color: #CF6D3F;
+}
+
+.global-filter-wrapper .jet-filter-label{
+    color: #CF6D3F;
+    font-weight: 500;
+}
+
+.wp-block-uagb-container.uagb-block-26fa807b .custom-btn a{
+    border-radius: 4px !important;
+    border-color: #CF6D3F !important;
+    padding: 13px 12px;
+}
+
+.listing-tous-les-specialistes .jet-listing-grid__item > .wp-block-columns{
+    gap: 32px;
+}
+
+.wp-block-uagb-container.uagb-block-26fa807b,
+.wp-block-uagb-container.uagb-block-26fa807b .custom-btn,
+.wp-block-uagb-container.uagb-block-26fa807b .custom-btn a{
+    width: 100% !important;
+}
+
+.wp-block-uagb-container.uagb-block-26fa807b .custom-btn a{
+    max-width: 400px;
+    margin-left: auto;
+    display: block;
+}
+
+.wp-block-uagb-container.uagb-block-c981bd27{
+    min-height: 40px;
+}
+
+.listing-specialiste-columns-right > .wp-block-column:first-child{
+    z-index: 10;
+}
+
+.listing-tous-les-specialistes .jet-listing-grid__items{
+    gap: 24px;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 0px){
+    .jet-listing-grid__item .wp-block-columns > .wp-block-column:first-child > .wp-block-group,
+    .listing-tous-les-specialistes .jet-listing-grid__item > .wp-block-columns,
+    .listing-specialiste-columns-right{
+        flex-direction: column;
+    }
+
+    .jet-listing-grid__item .wp-block-columns > .wp-block-column:first-child > .wp-block-group{
+        gap: 16px;
+    }
+
+    .listing-tous-les-specialistes .jet-listing-grid__item > .wp-block-columns{
+        gap: 24px;
+    }
+
+    .wp-block-uagb-container.uagb-block-26fa807b .custom-btn a{
+        margin-left: unset;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 0px){
+    .wp-block-uagb-container.uagb-block-26fa807b .custom-btn a{
+        max-width: 100%;
+    }
+}
+

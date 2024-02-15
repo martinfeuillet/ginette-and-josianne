@@ -1,0 +1,51 @@
+/*
+* SHOP CSS
+*/
+
+.post-type-archive-product .abonnement__header__title{
+    max-width: 650px !important;
+}
+
+.produit__section-bilan__text{
+    max-width: 680px !important;
+}
+
+.uagb-block-a367f623 .is-image-wrapper{
+    height: 100%;
+}
+
+.cat__columns > div > div:first-child{
+    max-height: 340px !important;
+}
+
+.cat__columns > div > div:first-child img{
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.uagb-block-afd0e462 img{
+    height: 100% !important;
+    object-position: 50% 25%;
+}
+
+@media only screen and (min-width: 1500px){
+    .cat__columns > div > div:first-child{
+        max-height: 500px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 0px){
+    .wp-block-uagb-container.uagb-block-2d88d399 > div:not(.wp-block-uagb-container.uagb-block-2d88d399 > div:last-child){
+		border-bottom: 1px solid #b4b4b4 !important;
+	}
+
+    .uagb-block-a367f623 .is-image-wrapper{
+        height: unset;
+    }
+
+    .entry-content > div{
+        overflow-x: hidden !important;
+    }
+}
+
